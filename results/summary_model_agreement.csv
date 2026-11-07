@@ -1,0 +1,4 @@
+pair,category_agree_%,category_kappa,announcement_agree_%,announcement_kappa
+qwen2.5:7b-instruct vs gemma4:12b,85.75,0.788673649087033,93.0,0.8473490527463542
+qwen2.5:7b-instruct vs qwen3:14b,89.25,0.8405059300266132,95.25,0.897975621543253
+gemma4:12b vs qwen3:14b,89.25,0.838720264048684,94.75,0.8848999725952316

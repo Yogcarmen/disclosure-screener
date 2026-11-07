@@ -1,0 +1,4 @@
+model,sec_per_filing,errors,needs_review_%,flagged_announcements,n_new_authorization,n_increased_authorization,n_accelerated_share_repurchase,n_existing_program_only,n_not_about_buyback
+qwen2.5:7b-instruct,4.0714749999999995,0,9.75,149,97,43,9,190,61
+gemma4:12b,13.289225000000002,7,6.75,135,82,44,9,205,53
+qwen3:14b,5.931424999999999,0,3.75,146,93,44,9,199,55

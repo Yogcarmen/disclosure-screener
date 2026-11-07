@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "disclosure-screener"
+version = "0.1.0"
+description = "Screen SEC filings for share-repurchase announcements with a local LLM, plus human audit"
+requires-python = ">=3.10"
+dependencies = ["requests", "beautifulsoup4", "lxml", "pandas>=2.0", "numpy"]
+
+[project.optional-dependencies]
+analysis = ["eventstudy @ git+https://github.com/Yogcarmen/event-study-toolkit.git",
+            "yfinance", "matplotlib"]
+dev = ["pytest"]
+
+[tool.setuptools]
+packages = ["screener"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
